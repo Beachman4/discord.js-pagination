@@ -1,5 +1,5 @@
 {
-  "name": "discord-pagination",
+  "name": "discord-pagination-v2",
   "version": "1.0.0",
   "description": "A simple utility to paginate discord embeds. ",
   "main": "dist/index.js",
