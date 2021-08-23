@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+.idea
+dist/
+.npmrc
+example/config.json
+example/database.json

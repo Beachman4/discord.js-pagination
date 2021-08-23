@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  mysql:
+    image: mysql:8
+    ports:
+      - "3365:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: paginate
+      MYSQL_DATABASE: paginate
+      MYSQL_USER: paginate
+      MYSQL_PASSWORD: paginate
+    volumes:
+      - ~/.paginate/mysql:/var/lib/mysql
