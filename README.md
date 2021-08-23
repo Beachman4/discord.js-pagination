@@ -1,16 +1,17 @@
 <div align="center">
   <p>
-    <a href="https://nodei.co/npm/discord.js-pagination
-/"><img src="https://nodei.co/npm/discord.js-pagination.png?downloads=true&stars=true" alt="NPM info" /></a>
+    <a href="https://nodei.co/npm/better-discord-pagination
+/"><img src="https://nodei.co/npm/better-discord-pagination.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
 </div>
 
 
-# discord.js-pagination
+# better-discord-pagination
 A simple utility to paginate discord embeds. Built on discord.js@^12.0.0 (master) but should work on older versions. Compatible with MessageEmbeds, RichEmbeds (not tested). Pages are embeds.
 
 # Installation
-* `npm install discord-pagination`
+* `npm install -S better-discord-pagination`
+* `pnpm add better-discord-pagination`
 
 # Notice
 
@@ -21,8 +22,8 @@ The other way works much better with large datasets.
 # Usage
 ### Entire Page List version
 ```js
-// Import the discord.js-pagination package
-const paginationEmbed = require('discord.js-pagination');
+// Import the better-discord-pagination package
+const paginationEmbed = require('better-discord-pagination');
 
 // Use either MessageEmbed or RichEmbed to make pages
 // Keep in mind that Embeds should't have their footers set since the pagination method sets page info there
@@ -64,5 +65,5 @@ paginationEmbed.paginateEmbedPerPage(message, await getPage(1, 10), 10, await ge
 
 ```
 # Preview
-![Demo](https://raw.githubusercontent.com/saanuregh/discord.js-pagination/master/example/demo.png)
+![Demo](https://raw.githubusercontent.com/saanuregh/better-discord-pagination/master/example/demo.png)
 Here is the package used for paging song queue.
