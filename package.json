@@ -4,6 +4,10 @@
   "description": "A simple utility to paginate discord embeds. ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "tsc"
