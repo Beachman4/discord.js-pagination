@@ -65,5 +65,5 @@ paginationEmbed.paginateEmbedPerPage(message, await getPage(1, 10), 10, await ge
 
 ```
 # Preview
-![Demo](https://raw.githubusercontent.com/beachman4/better-discord-pagination/master/example/demo.png)
+![Demo](https://raw.githubusercontent.com/Beachman4/discord.js-pagination/master/example/demo.png)
 Here is the package used for paging song queue.
