@@ -60,7 +60,7 @@ function getPage(page, limit, extraData = {}) {
 }
 
 // Like above, emoji list defaults to the above list and timeout defaults to 120 seconds. When passing in a value, multiple seconds by 1000
-paginationEmbed.paginateEmbedPerPage(message, await getPage(1, 10), 10, await getTotalResults(10), getEmployeePage, emojiList, timeout)
+paginationEmbed.paginateEmbedPerPage(message, await getPage(1, 10), 10, await getTotalResults(10), getPage, emojiList, timeout)
 
 ```
 # Preview
